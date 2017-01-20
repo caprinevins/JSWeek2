@@ -10,7 +10,7 @@
         <input type="text" name="name">
       </label>
       <label>E-mail:
-        <input type="email" name="email">
+        <input type="email" name="email" autofocus>
       </label>
       <label>Favorite dog breed:
         <input type="text" name="breed">
@@ -70,8 +70,30 @@
       <label>Any age
         <input type="checkbox" name="desiredage" value="any">
       </label>
-      
     </fieldset>
+      
+      <label>Password
+        <input type="password" name="pw">                               
+      </label>
+      
+      <label>Dog Count
+        <input type="number" min="1" max="10" name="amount">
+      </label>
+      
+      <label>How much do you love dogs?
+        <input type="range" name="love" max="10" min="1">
+      </label>
+      
+      <br>
+      
+      <label>What's your website?
+        <input type="url" name="site">
+      </label>
+      
+      <label>Pick up?
+        <input type="date" name="pickup" min="2017-01-19">
+      </label>
+      
       
       <!--post requests are where information is sensitive and you don't want it in the URL-->
       
