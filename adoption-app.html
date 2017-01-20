@@ -25,8 +25,53 @@
       </select>
       
       <label>What breeds?
-        <textarea name="breeds"></textarea>
+        <textarea name="breeds" maxlength="5" rows="10" columns="5"></textarea>
       </label>
+      
+    <fieldset>
+      <legend>What kind of pets do you have?</legend>
+      <!--radio buttons-->
+      <label>Indoor
+        <input type="radio" name="lifestyle" value="indoor">
+      </label>
+      <label>Outdoor
+        <input type="radio" name="lifestyle" value="outdoor">
+      </label>
+      
+      <!--check boxes-->
+      <label>cats
+        <input type="checkbox" name="existing" value="cats">
+      </label>
+      <label>dogs
+        <input type="checkbox" name="existing" value="dogs">
+      </label>
+    </fieldset>
+      
+    <fieldset>
+      <legend>What sort of personality do you want your pet to have?</legend>
+      <!--radio button-->
+      <label>serious
+        <input type="radio" name="personality" value="serious">
+      </label>
+      <label>ridiculous
+        <input type="radio" name="personality" value="ridiculous">
+      </label>      
+    </fieldset>
+      
+    <fieldset>
+      <legend>How old do you want your pet to be?></legend>
+      <!--checkboxes-->
+      <label>0-2 years
+        <input type="checkbox" name="desiredage" value="0-2 years">
+      </label>
+      <label>2-4 years
+        <input type="checkbox" name="desiredage" value="2-4 years">
+      </label>
+      <label>Any age
+        <input type="checkbox" name="desiredage" value="any">
+      </label>
+      
+    </fieldset>
       
       <!--post requests are where information is sensitive and you don't want it in the URL-->
       
