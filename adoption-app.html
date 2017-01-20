@@ -6,7 +6,32 @@
   </head>
   <body>
     <form>
-      <input type="text" name="first-name">
+      <label>Name:
+        <input type="text" name="name">
+      </label>
+      <label>E-mail:
+        <input type="email" name="email">
+      </label>
+      <label>Favorite dog breed:
+        <input type="text" name="breed">
+      </label>
+        <input type="submit" value="SUBMIT" name="submit">
+      
+      <select name="pet-type">
+        <option value="rabbit">Rabbit</option>
+        <option value="squirrel">Squirrel</option>
+        <option value="donky">Lil' Donkey</option>
+        <option value="dog">Dewg</option>
+      </select>
+      
+      <label>What breeds?
+        <textarea name="breeds"></textarea>
+      </label>
+      
+      <!--post requests are where information is sensitive and you don't want it in the URL-->
+      
     </form>
   </body>
 </html>
+
+
